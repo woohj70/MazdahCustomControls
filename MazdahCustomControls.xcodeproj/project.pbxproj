@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7187D8E1312EF3F000DB3CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7187D8D1312EF3F000DB3CA /* UIKit.framework */; };
+		E7187D901312EF3F000DB3CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7187D8F1312EF3F000DB3CA /* Foundation.framework */; };
+		E7187D921312EF3F000DB3CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7187D911312EF3F000DB3CA /* CoreGraphics.framework */; };
+		E7187D981312EF3F000DB3CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E7187D961312EF3F000DB3CA /* InfoPlist.strings */; };
+		E7187D9B1312EF40000DB3CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7187D9A1312EF40000DB3CA /* main.m */; };
+		E7187D9E1312EF40000DB3CA /* MazdahCustomControlsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7187D9D1312EF40000DB3CA /* MazdahCustomControlsAppDelegate.m */; };
+		E7187DA11312EF40000DB3CA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7187D9F1312EF40000DB3CA /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E7187D891312EF3F000DB3CA /* MazdahCustomControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MazdahCustomControls.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7187D8D1312EF3F000DB3CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E7187D8F1312EF3F000DB3CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E7187D911312EF3F000DB3CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E7187D951312EF3F000DB3CA /* MazdahCustomControls-Info.plist */ = {isa = PBXFileReference; path = "MazdahCustomControls-Info.plist"; sourceTree = "<group>"; };
+		E7187D971312EF3F000DB3CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E7187D991312EF3F000DB3CA /* MazdahCustomControls-Prefix.pch */ = {isa = PBXFileReference; path = "MazdahCustomControls-Prefix.pch"; sourceTree = "<group>"; };
+		E7187D9A1312EF40000DB3CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7187D9C1312EF40000DB3CA /* MazdahCustomControlsAppDelegate.h */ = {isa = PBXFileReference; path = MazdahCustomControlsAppDelegate.h; sourceTree = "<group>"; };
+		E7187D9D1312EF40000DB3CA /* MazdahCustomControlsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MazdahCustomControlsAppDelegate.m; sourceTree = "<group>"; };
+		E7187DA01312EF40000DB3CA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7187D861312EF3F000DB3CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7187D8E1312EF3F000DB3CA /* UIKit.framework in Frameworks */,
+				E7187D901312EF3F000DB3CA /* Foundation.framework in Frameworks */,
+				E7187D921312EF3F000DB3CA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7187D7E1312EF3E000DB3CA = {
+			isa = PBXGroup;
+			children = (
+				E7187D931312EF3F000DB3CA /* MazdahCustomControls */,
+				E7187D8C1312EF3F000DB3CA /* Frameworks */,
+				E7187D8A1312EF3F000DB3CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7187D8A1312EF3F000DB3CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7187D891312EF3F000DB3CA /* MazdahCustomControls.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7187D8C1312EF3F000DB3CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7187D8D1312EF3F000DB3CA /* UIKit.framework */,
+				E7187D8F1312EF3F000DB3CA /* Foundation.framework */,
+				E7187D911312EF3F000DB3CA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7187D931312EF3F000DB3CA /* MazdahCustomControls */ = {
+			isa = PBXGroup;
+			children = (
+				E7187D9C1312EF40000DB3CA /* MazdahCustomControlsAppDelegate.h */,
+				E7187D9D1312EF40000DB3CA /* MazdahCustomControlsAppDelegate.m */,
+				E7187D9F1312EF40000DB3CA /* MainWindow.xib */,
+				E7187D941312EF3F000DB3CA /* Supporting Files */,
+			);
+			path = MazdahCustomControls;
+			sourceTree = "<group>";
+		};
+		E7187D941312EF3F000DB3CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7187D951312EF3F000DB3CA /* MazdahCustomControls-Info.plist */,
+				E7187D961312EF3F000DB3CA /* InfoPlist.strings */,
+				E7187D991312EF3F000DB3CA /* MazdahCustomControls-Prefix.pch */,
+				E7187D9A1312EF40000DB3CA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7187D881312EF3F000DB3CA /* MazdahCustomControls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7187DA41312EF40000DB3CA /* Build configuration list for PBXNativeTarget "MazdahCustomControls" */;
+			buildPhases = (
+				E7187D851312EF3F000DB3CA /* Sources */,
+				E7187D861312EF3F000DB3CA /* Frameworks */,
+				E7187D871312EF3F000DB3CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MazdahCustomControls;
+			productName = MazdahCustomControls;
+			productReference = E7187D891312EF3F000DB3CA /* MazdahCustomControls.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7187D801312EF3E000DB3CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Mazdah.com;
+			};
+			buildConfigurationList = E7187D831312EF3E000DB3CA /* Build configuration list for PBXProject "MazdahCustomControls" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E7187D7E1312EF3E000DB3CA;
+			productRefGroup = E7187D8A1312EF3F000DB3CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7187D881312EF3F000DB3CA /* MazdahCustomControls */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7187D871312EF3F000DB3CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7187D981312EF3F000DB3CA /* InfoPlist.strings in Resources */,
+				E7187DA11312EF40000DB3CA /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7187D851312EF3F000DB3CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7187D9B1312EF40000DB3CA /* main.m in Sources */,
+				E7187D9E1312EF40000DB3CA /* MazdahCustomControlsAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E7187D961312EF3F000DB3CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7187D971312EF3F000DB3CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E7187D9F1312EF40000DB3CA /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7187DA01312EF40000DB3CA /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7187DA21312EF40000DB3CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E7187DA31312EF40000DB3CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		E7187DA51312EF40000DB3CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MazdahCustomControls/MazdahCustomControls-Prefix.pch";
+				INFOPLIST_FILE = "MazdahCustomControls/MazdahCustomControls-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E7187DA61312EF40000DB3CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MazdahCustomControls/MazdahCustomControls-Prefix.pch";
+				INFOPLIST_FILE = "MazdahCustomControls/MazdahCustomControls-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7187D831312EF3E000DB3CA /* Build configuration list for PBXProject "MazdahCustomControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7187DA21312EF40000DB3CA /* Debug */,
+				E7187DA31312EF40000DB3CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7187DA41312EF40000DB3CA /* Build configuration list for PBXNativeTarget "MazdahCustomControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7187DA51312EF40000DB3CA /* Debug */,
+				E7187DA61312EF40000DB3CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7187D801312EF3E000DB3CA /* Project object */;
+}
