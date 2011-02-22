@@ -14,6 +14,7 @@
 		E7187D9B1312EF40000DB3CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7187D9A1312EF40000DB3CA /* main.m */; };
 		E7187D9E1312EF40000DB3CA /* MazdahCustomControlsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7187D9D1312EF40000DB3CA /* MazdahCustomControlsAppDelegate.m */; };
 		E7187DA11312EF40000DB3CA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7187D9F1312EF40000DB3CA /* MainWindow.xib */; };
+		E7E989671314155600CD5AFC /* README in Resources */ = {isa = PBXBuildFile; fileRef = E7E989661314155600CD5AFC /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +22,14 @@
 		E7187D8D1312EF3F000DB3CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E7187D8F1312EF3F000DB3CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E7187D911312EF3F000DB3CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E7187D951312EF3F000DB3CA /* MazdahCustomControls-Info.plist */ = {isa = PBXFileReference; path = "MazdahCustomControls-Info.plist"; sourceTree = "<group>"; };
+		E7187D951312EF3F000DB3CA /* MazdahCustomControls-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MazdahCustomControls-Info.plist"; sourceTree = "<group>"; };
 		E7187D971312EF3F000DB3CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E7187D991312EF3F000DB3CA /* MazdahCustomControls-Prefix.pch */ = {isa = PBXFileReference; path = "MazdahCustomControls-Prefix.pch"; sourceTree = "<group>"; };
+		E7187D991312EF3F000DB3CA /* MazdahCustomControls-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MazdahCustomControls-Prefix.pch"; sourceTree = "<group>"; };
 		E7187D9A1312EF40000DB3CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E7187D9C1312EF40000DB3CA /* MazdahCustomControlsAppDelegate.h */ = {isa = PBXFileReference; path = MazdahCustomControlsAppDelegate.h; sourceTree = "<group>"; };
+		E7187D9C1312EF40000DB3CA /* MazdahCustomControlsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MazdahCustomControlsAppDelegate.h; sourceTree = "<group>"; };
 		E7187D9D1312EF40000DB3CA /* MazdahCustomControlsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MazdahCustomControlsAppDelegate.m; sourceTree = "<group>"; };
 		E7187DA01312EF40000DB3CA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E7E989661314155600CD5AFC /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 		E7187D7E1312EF3E000DB3CA = {
 			isa = PBXGroup;
 			children = (
+				E7E989661314155600CD5AFC /* README */,
 				E7187D931312EF3F000DB3CA /* MazdahCustomControls */,
 				E7187D8C1312EF3F000DB3CA /* Frameworks */,
 				E7187D8A1312EF3F000DB3CA /* Products */,
@@ -145,6 +148,7 @@
 			files = (
 				E7187D981312EF3F000DB3CA /* InfoPlist.strings in Resources */,
 				E7187DA11312EF40000DB3CA /* MainWindow.xib in Resources */,
+				E7E989671314155600CD5AFC /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,7 +197,7 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -207,7 +211,7 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 			};
@@ -262,6 +266,7 @@
 				E7187DA61312EF40000DB3CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
