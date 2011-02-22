@@ -14,6 +14,8 @@
 		E7187D9B1312EF40000DB3CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7187D9A1312EF40000DB3CA /* main.m */; };
 		E7187D9E1312EF40000DB3CA /* MazdahCustomControlsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7187D9D1312EF40000DB3CA /* MazdahCustomControlsAppDelegate.m */; };
 		E7187DA11312EF40000DB3CA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7187D9F1312EF40000DB3CA /* MainWindow.xib */; };
+		E72427BD13141BBB00BB8F56 /* MDCustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E72427BB13141BBB00BB8F56 /* MDCustomTabBarController.m */; };
+		E72427BE13141BBB00BB8F56 /* MDCustomTabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E72427BC13141BBB00BB8F56 /* MDCustomTabBarController.xib */; };
 		E7E989671314155600CD5AFC /* README in Resources */ = {isa = PBXBuildFile; fileRef = E7E989661314155600CD5AFC /* README */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +31,9 @@
 		E7187D9C1312EF40000DB3CA /* MazdahCustomControlsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MazdahCustomControlsAppDelegate.h; sourceTree = "<group>"; };
 		E7187D9D1312EF40000DB3CA /* MazdahCustomControlsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MazdahCustomControlsAppDelegate.m; sourceTree = "<group>"; };
 		E7187DA01312EF40000DB3CA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E72427BA13141BBB00BB8F56 /* MDCustomTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCustomTabBarController.h; sourceTree = "<group>"; };
+		E72427BB13141BBB00BB8F56 /* MDCustomTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCustomTabBarController.m; sourceTree = "<group>"; };
+		E72427BC13141BBB00BB8F56 /* MDCustomTabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MDCustomTabBarController.xib; sourceTree = "<group>"; };
 		E7E989661314155600CD5AFC /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +82,7 @@
 		E7187D931312EF3F000DB3CA /* MazdahCustomControls */ = {
 			isa = PBXGroup;
 			children = (
+				E72427B713141AE400BB8F56 /* Classes */,
 				E7187D9C1312EF40000DB3CA /* MazdahCustomControlsAppDelegate.h */,
 				E7187D9D1312EF40000DB3CA /* MazdahCustomControlsAppDelegate.m */,
 				E7187D9F1312EF40000DB3CA /* MainWindow.xib */,
@@ -94,6 +100,24 @@
 				E7187D9A1312EF40000DB3CA /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E72427B713141AE400BB8F56 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E72427B913141AFB00BB8F56 /* MazdahCustomTabBar */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		E72427B913141AFB00BB8F56 /* MazdahCustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				E72427BA13141BBB00BB8F56 /* MDCustomTabBarController.h */,
+				E72427BB13141BBB00BB8F56 /* MDCustomTabBarController.m */,
+				E72427BC13141BBB00BB8F56 /* MDCustomTabBarController.xib */,
+			);
+			name = MazdahCustomTabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +173,7 @@
 				E7187D981312EF3F000DB3CA /* InfoPlist.strings in Resources */,
 				E7187DA11312EF40000DB3CA /* MainWindow.xib in Resources */,
 				E7E989671314155600CD5AFC /* README in Resources */,
+				E72427BE13141BBB00BB8F56 /* MDCustomTabBarController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +186,7 @@
 			files = (
 				E7187D9B1312EF40000DB3CA /* main.m in Sources */,
 				E7187D9E1312EF40000DB3CA /* MazdahCustomControlsAppDelegate.m in Sources */,
+				E72427BD13141BBB00BB8F56 /* MDCustomTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
