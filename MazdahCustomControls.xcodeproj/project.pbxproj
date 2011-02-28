@@ -14,6 +14,13 @@
 		E70C6A00131BEB8B00AA078D /* MCSolarDate.m in Sources */ = {isa = PBXBuildFile; fileRef = E70C69F7131BEB8B00AA078D /* MCSolarDate.m */; };
 		E70C6A01131BEB8B00AA078D /* MyCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = E70C69F9131BEB8B00AA078D /* MyCalendarView.m */; };
 		E70C6A02131BEB8B00AA078D /* THCalendarInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E70C69FB131BEB8B00AA078D /* THCalendarInfo.m */; };
+		E70C6A04131BEE0700AA078D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70C6A03131BEE0700AA078D /* QuartzCore.framework */; };
+		E70C6A0D131BEECE00AA078D /* calendarbg.png in Resources */ = {isa = PBXBuildFile; fileRef = E70C6A07131BEECE00AA078D /* calendarbg.png */; };
+		E70C6A0E131BEECE00AA078D /* calendarbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E70C6A08131BEECE00AA078D /* calendarbg@2x.png */; };
+		E70C6A0F131BEECE00AA078D /* left-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = E70C6A09131BEECE00AA078D /* left-arrow.png */; };
+		E70C6A10131BEECE00AA078D /* left-arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E70C6A0A131BEECE00AA078D /* left-arrow@2x.png */; };
+		E70C6A11131BEECE00AA078D /* right-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = E70C6A0B131BEECE00AA078D /* right-arrow.png */; };
+		E70C6A12131BEECE00AA078D /* right-arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E70C6A0C131BEECE00AA078D /* right-arrow@2x.png */; };
 		E7187D8E1312EF3F000DB3CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7187D8D1312EF3F000DB3CA /* UIKit.framework */; };
 		E7187D901312EF3F000DB3CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7187D8F1312EF3F000DB3CA /* Foundation.framework */; };
 		E7187D921312EF3F000DB3CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7187D911312EF3F000DB3CA /* CoreGraphics.framework */; };
@@ -41,6 +48,13 @@
 		E70C69F9131BEB8B00AA078D /* MyCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyCalendarView.m; path = " Classes/CustomControls/CustomCalendar/MyCalendarView.m"; sourceTree = "<group>"; };
 		E70C69FA131BEB8B00AA078D /* THCalendarInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = THCalendarInfo.h; path = " Classes/CustomControls/CustomCalendar/THCalendarInfo.h"; sourceTree = "<group>"; };
 		E70C69FB131BEB8B00AA078D /* THCalendarInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = THCalendarInfo.m; path = " Classes/CustomControls/CustomCalendar/THCalendarInfo.m"; sourceTree = "<group>"; };
+		E70C6A03131BEE0700AA078D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E70C6A07131BEECE00AA078D /* calendarbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calendarbg.png; path = Resources/images/calendarbg.png; sourceTree = "<group>"; };
+		E70C6A08131BEECE00AA078D /* calendarbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "calendarbg@2x.png"; path = "Resources/images/calendarbg@2x.png"; sourceTree = "<group>"; };
+		E70C6A09131BEECE00AA078D /* left-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "left-arrow.png"; path = "Resources/images/left-arrow.png"; sourceTree = "<group>"; };
+		E70C6A0A131BEECE00AA078D /* left-arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "left-arrow@2x.png"; path = "Resources/images/left-arrow@2x.png"; sourceTree = "<group>"; };
+		E70C6A0B131BEECE00AA078D /* right-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "right-arrow.png"; path = "Resources/images/right-arrow.png"; sourceTree = "<group>"; };
+		E70C6A0C131BEECE00AA078D /* right-arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "right-arrow@2x.png"; path = "Resources/images/right-arrow@2x.png"; sourceTree = "<group>"; };
 		E7187D891312EF3F000DB3CA /* MazdahCustomControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MazdahCustomControls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7187D8D1312EF3F000DB3CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E7187D8F1312EF3F000DB3CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E70C6A04131BEE0700AA078D /* QuartzCore.framework in Frameworks */,
 				E7187D8E1312EF3F000DB3CA /* UIKit.framework in Frameworks */,
 				E7187D901312EF3F000DB3CA /* Foundation.framework in Frameworks */,
 				E7187D921312EF3F000DB3CA /* CoreGraphics.framework in Frameworks */,
@@ -101,9 +116,31 @@
 			name = CustomCalendar;
 			sourceTree = "<group>";
 		};
+		E70C6A05131BEE6200AA078D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E70C6A06131BEE6E00AA078D /* images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E70C6A06131BEE6E00AA078D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E70C6A07131BEECE00AA078D /* calendarbg.png */,
+				E70C6A08131BEECE00AA078D /* calendarbg@2x.png */,
+				E70C6A09131BEECE00AA078D /* left-arrow.png */,
+				E70C6A0A131BEECE00AA078D /* left-arrow@2x.png */,
+				E70C6A0B131BEECE00AA078D /* right-arrow.png */,
+				E70C6A0C131BEECE00AA078D /* right-arrow@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		E7187D7E1312EF3E000DB3CA = {
 			isa = PBXGroup;
 			children = (
+				E70C6A03131BEE0700AA078D /* QuartzCore.framework */,
 				E7E989661314155600CD5AFC /* README */,
 				E7187D931312EF3F000DB3CA /* MazdahCustomControls */,
 				E7187D8C1312EF3F000DB3CA /* Frameworks */,
@@ -132,6 +169,7 @@
 		E7187D931312EF3F000DB3CA /* MazdahCustomControls */ = {
 			isa = PBXGroup;
 			children = (
+				E70C6A05131BEE6200AA078D /* Resources */,
 				E72427B713141AE400BB8F56 /* Classes */,
 				E7187D9C1312EF40000DB3CA /* MazdahCustomControlsAppDelegate.h */,
 				E7187D9D1312EF40000DB3CA /* MazdahCustomControlsAppDelegate.m */,
@@ -225,6 +263,12 @@
 				E7187DA11312EF40000DB3CA /* MainWindow.xib in Resources */,
 				E7E989671314155600CD5AFC /* README in Resources */,
 				E72427C813141F6500BB8F56 /* MDCustomTabBarController.xib in Resources */,
+				E70C6A0D131BEECE00AA078D /* calendarbg.png in Resources */,
+				E70C6A0E131BEECE00AA078D /* calendarbg@2x.png in Resources */,
+				E70C6A0F131BEECE00AA078D /* left-arrow.png in Resources */,
+				E70C6A10131BEECE00AA078D /* left-arrow@2x.png in Resources */,
+				E70C6A11131BEECE00AA078D /* right-arrow.png in Resources */,
+				E70C6A12131BEECE00AA078D /* right-arrow@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
