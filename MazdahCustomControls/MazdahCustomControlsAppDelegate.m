@@ -25,7 +25,7 @@
 */
 
 - (void) applicationDidFinishLaunching:(UIApplication *)application { 
-    NSDictionary *options = [[[NSDictionary alloc] initWithObjectsAndKeys:@"2", @"style", @"100", @"height", nil] autorelease];
+    NSDictionary *options = [[[NSDictionary alloc] initWithObjectsAndKeys:@"0", @"style", @"100", @"height", nil] autorelease];
     
     MDCustomTabBarController *cTabBarCtl = [[MDCustomTabBarController alloc] initWithOptions:options];
     [cTabBarCtl setBtnTitle:@"ITEM"];

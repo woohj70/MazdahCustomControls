@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#import "MyCalendarView.h"
+
 #define TABBAR_TYPE_STATIC  0
 #define TABBAR_TYPE_HIDABLE 1
 #define TABBAR_TYPE_CUSTOM  2
@@ -22,6 +24,8 @@
     NSInteger   tabBarHeight;
     
     NSString    *btnTitle;
+    
+    MyCalendarView *calView;
 }
 
 @property (nonatomic, retain) NSArray *arrButtonImages;
@@ -32,5 +36,6 @@
 @property (nonatomic) NSInteger   tabBarHeight;
 
 @property (nonatomic, retain) NSString    *btnTitle;
+@property (nonatomic, retain) MyCalendarView *calView;
 
 @end

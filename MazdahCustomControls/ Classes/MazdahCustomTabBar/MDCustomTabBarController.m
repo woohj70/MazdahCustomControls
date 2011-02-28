@@ -16,6 +16,8 @@
 @synthesize tabBarStyle;
 @synthesize btnTitle;
 
+@synthesize calView;
+
 /*
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -63,6 +65,43 @@
     // Release any cached data, images, etc that aren't in use.
 }
 
+#pragma mark - Swipe Methods
+
+- (void)swipeLeftAction:(id)ignored {
+    float ncalHeight = 70.0f;
+    
+    [UIView beginAnimations:nil context:NULL];
+    [UIView setAnimationDuration:0.3];
+    
+    // we need to perform some post operations after the animation is complete
+    [UIView setAnimationDelegate:self];
+    
+    [calView resizeCalendar:CGRectMake(10.0f, (480 / 2) - (ncalHeight / 2), ncalHeight, ncalHeight)];
+    //   calView.frame = CGRectMake(10.0f, (480 / 2) - (ncalHeight / 2), ncalHeight, ncalHeight);
+    
+    /*
+     [calView removeFromSuperview];
+     calView = [[MyCalendarView alloc] initWithFrame:CGRectMake(10.0f, (480 / 2) - (calHeight / 2), calHeight, calHeight) delegate:nil withManagedObjectContext:nil];
+     [self.view addSubview:calView];
+     [self.view bringSubviewToFront:calView];
+     */
+    [UIView commitAnimations];
+}
+
+- (void)swipeRightAction:(id)ignored {
+    float wcalHeight = 300.0f;
+    
+    [UIView beginAnimations:nil context:NULL];
+    [UIView setAnimationDuration:0.3];
+    
+    // we need to perform some post operations after the animation is complete
+    [UIView setAnimationDelegate:self];
+    
+    [calView resizeCalendar:CGRectMake(10.0f, (480 / 2) - (wcalHeight / 2), wcalHeight, wcalHeight)];
+    
+    [UIView commitAnimations];
+}
+
 #pragma mark - View lifecycle
 
 - (void)viewDidLoad
@@ -70,7 +109,22 @@
     NSLog(@"viewDidLoad");
     [super viewDidLoad];
     
+    UISwipeGestureRecognizer *swipeLeft = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipeLeftAction:)];
+    swipeLeft.direction = UISwipeGestureRecognizerDirectionLeft;
+    //swipeLeft.delegate = self;
+    [self.view addGestureRecognizer:swipeLeft];
     
+    //Swipe Right
+    UISwipeGestureRecognizer *swipeRight = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipeRightAction:)];
+    swipeRight.direction = UISwipeGestureRecognizerDirectionRight;
+    //swipeRight.delegate = self;
+    [self.view addGestureRecognizer:swipeRight];
+    
+    float calHeight = 70.0f;
+    
+    calView = [[MyCalendarView alloc] initWithFrame:CGRectMake(10.0f, (480 / 2) - (calHeight / 2), calHeight, calHeight) delegate:self withManagedObjectContext:nil];
+    [self.view addSubview:calView];
+    [self.view bringSubviewToFront:calView];
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -96,6 +150,8 @@
     [arrButtonImages release];
     [arrButtonTitles release];
     [arrButtonClasses release];
+    
+    [calView release];
     
     [btnTitle release];
     
