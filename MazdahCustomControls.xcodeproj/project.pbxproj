@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E70C69FC131BEB8B00AA078D /* CalendarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E70C69EF131BEB8B00AA078D /* CalendarButton.m */; };
+		E70C69FD131BEB8B00AA078D /* KLCalendarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E70C69F1131BEB8B00AA078D /* KLCalendarModel.m */; };
+		E70C69FE131BEB8B00AA078D /* KLDate.m in Sources */ = {isa = PBXBuildFile; fileRef = E70C69F3131BEB8B00AA078D /* KLDate.m */; };
+		E70C69FF131BEB8B00AA078D /* MCLunarDate.m in Sources */ = {isa = PBXBuildFile; fileRef = E70C69F5131BEB8B00AA078D /* MCLunarDate.m */; };
+		E70C6A00131BEB8B00AA078D /* MCSolarDate.m in Sources */ = {isa = PBXBuildFile; fileRef = E70C69F7131BEB8B00AA078D /* MCSolarDate.m */; };
+		E70C6A01131BEB8B00AA078D /* MyCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = E70C69F9131BEB8B00AA078D /* MyCalendarView.m */; };
+		E70C6A02131BEB8B00AA078D /* THCalendarInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E70C69FB131BEB8B00AA078D /* THCalendarInfo.m */; };
 		E7187D8E1312EF3F000DB3CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7187D8D1312EF3F000DB3CA /* UIKit.framework */; };
 		E7187D901312EF3F000DB3CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7187D8F1312EF3F000DB3CA /* Foundation.framework */; };
 		E7187D921312EF3F000DB3CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7187D911312EF3F000DB3CA /* CoreGraphics.framework */; };
@@ -20,6 +27,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E70C69EE131BEB8B00AA078D /* CalendarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalendarButton.h; path = " Classes/CustomControls/CustomCalendar/CalendarButton.h"; sourceTree = "<group>"; };
+		E70C69EF131BEB8B00AA078D /* CalendarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalendarButton.m; path = " Classes/CustomControls/CustomCalendar/CalendarButton.m"; sourceTree = "<group>"; };
+		E70C69F0131BEB8B00AA078D /* KLCalendarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KLCalendarModel.h; path = " Classes/CustomControls/CustomCalendar/KLCalendarModel.h"; sourceTree = "<group>"; };
+		E70C69F1131BEB8B00AA078D /* KLCalendarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KLCalendarModel.m; path = " Classes/CustomControls/CustomCalendar/KLCalendarModel.m"; sourceTree = "<group>"; };
+		E70C69F2131BEB8B00AA078D /* KLDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KLDate.h; path = " Classes/CustomControls/CustomCalendar/KLDate.h"; sourceTree = "<group>"; };
+		E70C69F3131BEB8B00AA078D /* KLDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KLDate.m; path = " Classes/CustomControls/CustomCalendar/KLDate.m"; sourceTree = "<group>"; };
+		E70C69F4131BEB8B00AA078D /* MCLunarDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCLunarDate.h; path = " Classes/CustomControls/CustomCalendar/MCLunarDate.h"; sourceTree = "<group>"; };
+		E70C69F5131BEB8B00AA078D /* MCLunarDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCLunarDate.m; path = " Classes/CustomControls/CustomCalendar/MCLunarDate.m"; sourceTree = "<group>"; };
+		E70C69F6131BEB8B00AA078D /* MCSolarDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCSolarDate.h; path = " Classes/CustomControls/CustomCalendar/MCSolarDate.h"; sourceTree = "<group>"; };
+		E70C69F7131BEB8B00AA078D /* MCSolarDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCSolarDate.m; path = " Classes/CustomControls/CustomCalendar/MCSolarDate.m"; sourceTree = "<group>"; };
+		E70C69F8131BEB8B00AA078D /* MyCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyCalendarView.h; path = " Classes/CustomControls/CustomCalendar/MyCalendarView.h"; sourceTree = "<group>"; };
+		E70C69F9131BEB8B00AA078D /* MyCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyCalendarView.m; path = " Classes/CustomControls/CustomCalendar/MyCalendarView.m"; sourceTree = "<group>"; };
+		E70C69FA131BEB8B00AA078D /* THCalendarInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = THCalendarInfo.h; path = " Classes/CustomControls/CustomCalendar/THCalendarInfo.h"; sourceTree = "<group>"; };
+		E70C69FB131BEB8B00AA078D /* THCalendarInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = THCalendarInfo.m; path = " Classes/CustomControls/CustomCalendar/THCalendarInfo.m"; sourceTree = "<group>"; };
 		E7187D891312EF3F000DB3CA /* MazdahCustomControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MazdahCustomControls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7187D8D1312EF3F000DB3CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E7187D8F1312EF3F000DB3CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -51,6 +72,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E70C69EB131BEB4F00AA078D /* CustomControls */ = {
+			isa = PBXGroup;
+			children = (
+				E70C69ED131BEB6B00AA078D /* CustomCalendar */,
+			);
+			name = CustomControls;
+			sourceTree = "<group>";
+		};
+		E70C69ED131BEB6B00AA078D /* CustomCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				E70C69EE131BEB8B00AA078D /* CalendarButton.h */,
+				E70C69EF131BEB8B00AA078D /* CalendarButton.m */,
+				E70C69F0131BEB8B00AA078D /* KLCalendarModel.h */,
+				E70C69F1131BEB8B00AA078D /* KLCalendarModel.m */,
+				E70C69F2131BEB8B00AA078D /* KLDate.h */,
+				E70C69F3131BEB8B00AA078D /* KLDate.m */,
+				E70C69F4131BEB8B00AA078D /* MCLunarDate.h */,
+				E70C69F5131BEB8B00AA078D /* MCLunarDate.m */,
+				E70C69F6131BEB8B00AA078D /* MCSolarDate.h */,
+				E70C69F7131BEB8B00AA078D /* MCSolarDate.m */,
+				E70C69F8131BEB8B00AA078D /* MyCalendarView.h */,
+				E70C69F9131BEB8B00AA078D /* MyCalendarView.m */,
+				E70C69FA131BEB8B00AA078D /* THCalendarInfo.h */,
+				E70C69FB131BEB8B00AA078D /* THCalendarInfo.m */,
+			);
+			name = CustomCalendar;
+			sourceTree = "<group>";
+		};
 		E7187D7E1312EF3E000DB3CA = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +155,7 @@
 		E72427B713141AE400BB8F56 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E70C69EB131BEB4F00AA078D /* CustomControls */,
 				E72427B913141AFB00BB8F56 /* MazdahCustomTabBar */,
 			);
 			name = Classes;
@@ -187,6 +238,13 @@
 				E7187D9B1312EF40000DB3CA /* main.m in Sources */,
 				E7187D9E1312EF40000DB3CA /* MazdahCustomControlsAppDelegate.m in Sources */,
 				E72427C713141F6500BB8F56 /* MDCustomTabBarController.m in Sources */,
+				E70C69FC131BEB8B00AA078D /* CalendarButton.m in Sources */,
+				E70C69FD131BEB8B00AA078D /* KLCalendarModel.m in Sources */,
+				E70C69FE131BEB8B00AA078D /* KLDate.m in Sources */,
+				E70C69FF131BEB8B00AA078D /* MCLunarDate.m in Sources */,
+				E70C6A00131BEB8B00AA078D /* MCSolarDate.m in Sources */,
+				E70C6A01131BEB8B00AA078D /* MyCalendarView.m in Sources */,
+				E70C6A02131BEB8B00AA078D /* THCalendarInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
