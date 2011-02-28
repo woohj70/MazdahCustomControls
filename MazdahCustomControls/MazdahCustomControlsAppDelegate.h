@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+@class MDCustomTabBarController;
+
 @interface MazdahCustomControlsAppDelegate : NSObject <UIApplicationDelegate> {
 
 }

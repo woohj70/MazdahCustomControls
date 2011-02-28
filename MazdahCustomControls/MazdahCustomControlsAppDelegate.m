@@ -8,16 +8,30 @@
 
 #import "MazdahCustomControlsAppDelegate.h"
 
+#import "MDCustomTabBarController.h"
+
 @implementation MazdahCustomControlsAppDelegate
 
 
 @synthesize window=_window;
 
+/*
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
     [self.window makeKeyAndVisible];
     return YES;
+}
+*/
+
+- (void) applicationDidFinishLaunching:(UIApplication *)application { 
+    NSDictionary *options = [[[NSDictionary alloc] initWithObjectsAndKeys:@"2", @"style", @"100", @"height", nil] autorelease];
+    
+    MDCustomTabBarController *cTabBarCtl = [[MDCustomTabBarController alloc] initWithOptions:options];
+    [cTabBarCtl setBtnTitle:@"ITEM"];
+    
+    [_window addSubview:cTabBarCtl.view];
+    [_window makeKeyAndVisible];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
